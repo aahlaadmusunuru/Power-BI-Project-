@@ -21,3 +21,12 @@
 - Performed coding and database development tasks
 - Conducted Knowledge Transfer (KT) sessions
 - Handled performance tuning and error handling in ETL processes
+
+## Project Description
+
+- It is a Medical Insurance Project from the UK.
+- Any customer can purchase a medical policy through web, online platforms, agents, brokers, or third-party channels.
+- Policies can be renewed and are purchased from various locations.
+- Customers receive deductions when purchasing a policy.
+- Each policy has a defined limit on the insured amount.
+- Customers pay a premium amount for the given policy on a yearly basis.
