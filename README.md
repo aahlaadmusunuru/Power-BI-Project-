@@ -31,3 +31,12 @@
 - Each policy has a defined limit on the insured amount.
 - Customers pay a premium amount for the given policy on a yearly basis.
 ![Torus Arcitecture Image](Torus.png)
+## Project Objectives
+- Growth rate in terms of number of customers and profit
+- Growth rate for renewals over the last few years
+- Analyze new customers ratio
+- Analyze renewals ratio
+- Analyze time taken to issue new policies
+- Analyze customers and their existing policies, and provide recommendations
+- Analyze number of claim settlements over the last few years
+- Analyze claim settlement amounts over the last few years
