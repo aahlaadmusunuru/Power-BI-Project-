@@ -30,7 +30,11 @@
 - Customers receive deductions when purchasing a policy.
 - Each policy has a defined limit on the insured amount.
 - Customers pay a premium amount for the given policy on a yearly basis.
-![Torus Arcitecture Image](Torus.png)
+  
+<p align="center">
+  <img src="Torus.png" width="100%" />
+</p>
+
 ## Project Objectives
 - Growth rate in terms of number of customers and profit
 - Growth rate for renewals over the last few years
