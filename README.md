@@ -48,3 +48,20 @@
 <p align="center">
   <img src="SSI_Loading_The_Data.png" width="100%" />
 </p>
+
+## Tables Used in the Project
+
+### DB Tables (OLTP Source)
+
+- Policy
+- RevenueType
+- [Finance].[Currency]
+- TransactionType
+
+### Excel Source Tables
+
+- PolicySection
+- PolicyCoverage
+- Premium
+- Limit
+- Deduction
