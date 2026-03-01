@@ -30,3 +30,6 @@
 - Customers receive deductions when purchasing a policy.
 - Each policy has a defined limit on the insured amount.
 - Customers pay a premium amount for the given policy on a yearly basis.
+<p align="center">
+  <img src="Torus.png" width="300"/>
+</p>
