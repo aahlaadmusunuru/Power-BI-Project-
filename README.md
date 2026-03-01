@@ -40,3 +40,5 @@
 - Analyze customers and their existing policies, and provide recommendations
 - Analyze number of claim settlements over the last few years
 - Analyze claim settlement amounts over the last few years
+
+![SSI_Loading_The_Data](SSI_Loading_The_Data.png)
