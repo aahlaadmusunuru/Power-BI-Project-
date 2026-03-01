@@ -41,4 +41,6 @@
 - Analyze number of claim settlements over the last few years
 - Analyze claim settlement amounts over the last few years
 
-![SSI_Loading_The_Data](SSI_Loading_The_Data.png)
+<p align="center">
+  <img src="SSI_Loading_The_Data.png" width="100%" />
+</p>
