@@ -101,7 +101,8 @@ In this project, we have implemented **two types of logging**:
   For this, we create a **custom SQL Server table** to log successful package execution.
 
 - **Built-in SSIS Logging**  
-  SSIS provides a **built-in logging mechanism** to capture execution details and errors.
+  SSIS provides a **built-in logging mechanism** to capture execution details and errors.  
+  Here we use the **OnError** and **OnTaskFailed** event handlers for logging.
 
 ---
 
