@@ -66,6 +66,6 @@
 - Limit
 - Deduction
 <p align="center">
-  <img src="SSI_Loading_The_Data.png" width="100%" />
+  <img src="SSIS_LOAD.png" width="100%" />
 </p>
 
