@@ -69,3 +69,20 @@
   <img src="SSIS_LOAD.png" width="100%" />
 </p>
 
+```sql
+Create table SSIS_Loags
+(
+ID                 int          primary key identity(1,1),
+PkgName             varchar(100) not null,
+PkgExecTime         datetime    not null,
+RowCnt               int       not null, 
+PkgExecStatus      varchar(100)  not null
+)
+go 
+select * from  SSIS_Loags
+go
+insert into SSIS_Loags values(?,getdate(),?'Success. Package executed successfully.')
+```
+
+
+
