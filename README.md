@@ -69,8 +69,13 @@
   <img src="SSIS_LOAD.png" width="100%" />
 </p>
 
+
+
 **Example**  One table how we loadd to the staging hear we use **Stage_LoadCurrency**
 **Controle Flow**
+<p align="center">
+  <img src="Stage_LoadCurrency_1.png" width="100%" />
+</p>
 
 **Data Flow**
 In this Poroject we have used two error logs 
