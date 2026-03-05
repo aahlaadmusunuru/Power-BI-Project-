@@ -69,37 +69,60 @@
   <img src="SSIS_LOAD.png" width="100%" />
 </p>
 
-### Example Stage_LoadCurrency
+### Example: Stage_LoadCurrency
 ---
-**Example**  One table how we loadd to the staging hear we use **Stage_LoadCurrency**
-**Controle Flow**
+
+**Example:**  
+This example shows how a table is loaded into the **staging layer** using the package **Stage_LoadCurrency**.
+
+---
+
+### Control Flow for `Stage_LoadCurrency`
+
 <p align="center">
   <img src="Stage_LoadCurrency_1.png" width="100%" />
 </p>
+
+---
+
+### Data Flow for `Stage_LoadCurrency`
+
 <p align="center">
   <img src="Stage_LoadData_flow_1.png" width="100%" />
 </p>
 
+---
 
+### Error Logging
 
-**Data Flow**
-In this Poroject we have used two error logs 
-- Customized Logging -Success
-- ReadyMade Loggi
+In this project, we have implemented **two types of logging**:
+
+- **Custom Logging (Success Logging)**  
+  For this, we create a **custom SQL Server table** to log successful package execution.
+
+- **Built-in SSIS Logging**  
+  SSIS provides a **built-in logging mechanism** to capture execution details and errors.
+
+---
+
+### Custom Logging Table
 
 ```sql
-Create table SSIS_Loags
+CREATE TABLE SSIS_Logs
 (
-ID                 int          primary key identity(1,1),
-PkgName             varchar(100) not null,
-PkgExecTime         datetime    not null,
-RowCnt               int       not null, 
-PkgExecStatus      varchar(100)  not null
-)
-go 
-select * from  SSIS_Loags
-go
-insert into SSIS_Loags values(?,getdate(),?'Success. Package executed successfully.')
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    PkgName VARCHAR(100) NOT NULL,
+    PkgExecTime DATETIME NOT NULL,
+    RowCnt INT NOT NULL,
+    PkgExecStatus VARCHAR(100) NOT NULL
+);
+GO
+
+SELECT * FROM SSIS_Logs;
+GO
+
+INSERT INTO SSIS_Logs
+VALUES (?, GETDATE(), ?, 'Success. Package executed successfully.');
 ```
 
 
