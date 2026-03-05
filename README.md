@@ -69,7 +69,7 @@
   <img src="SSIS_LOAD.png" width="100%" />
 </p>
 
-##Example
+### Example Stage_LoadCurrency
 ---
 **Example**  One table how we loadd to the staging hear we use **Stage_LoadCurrency**
 **Controle Flow**
