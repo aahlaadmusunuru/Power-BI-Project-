@@ -107,7 +107,9 @@ In this project, we have implemented **two types of logging**:
 - **Built-in SSIS Logging**  
   SSIS provides a **built-in logging mechanism** to capture execution details and errors.  
   Here we use the **OnError** and **OnTaskFailed** event handlers for logging.
-
+<p align="center">
+  <img src="Built_in_SSIS_Logging_01" width="100%" />
+</p>
 ---
 
 ### Custom Logging Table
