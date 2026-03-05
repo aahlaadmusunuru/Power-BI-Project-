@@ -65,3 +65,7 @@
 - Premium
 - Limit
 - Deduction
+<p align="center">
+  <img src="SSI_Loading_The_Data.png" width="100%" />
+</p>
+
