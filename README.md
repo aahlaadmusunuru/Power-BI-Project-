@@ -132,5 +132,10 @@ INSERT INTO SSIS_Logs
 VALUES (?, GETDATE(), ?, 'Success. Package executed successfully.');
 ```
 
+**From Hear we will move all the 9 tables data from  TARDIS_STAGE to TARDISDW ware house**
+<p align="center">
+  <img src="SSIS_LOAD.png" width="100%" />
+</p>
+
 
 
